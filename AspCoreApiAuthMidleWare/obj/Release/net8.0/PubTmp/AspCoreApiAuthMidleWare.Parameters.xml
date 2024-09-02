@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="viktor2002-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Виктор\\source\\repos\\AspCoreApiAuthMidleWare\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="AspCoreApiAuthMidleWare.Controllers.DbAplication1Context" description="" value="Data Source=SQL6032.site4now.net;Initial Catalog=db_aac46d_dbloginapi;User Id=db_aac46d_dbloginapi_admin;Password=zaz11zaz" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Виктор\\source\\repos\\AspCoreApiAuthMidleWare\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\AspCoreApiAuthMidleWare\.Controllers\.DbAplication1Context\.sql$" />
+  </parameter>
+</parameters>
