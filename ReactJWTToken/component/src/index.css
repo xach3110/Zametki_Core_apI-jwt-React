@@ -11,14 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-button {
-  height: 40px;
-  width: 150px;
-  background-color: burlywood;
-  margin: 10px 10px 10px 10px ;
-}
-
-#Delete {
-  background-color: red;
-}
