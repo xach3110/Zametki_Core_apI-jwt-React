@@ -17,7 +17,7 @@ const Register = () => {
       event.preventDefault();
       const loginPayload = {Username: login, Email: email, Password: pass};
       try{
-         axios.post("https://localhost:7282/api/Authenticate/register", loginPayload).then((response) => { 
+         axios.post("http://viktor2002-001-site1.htempurl.com/api/Authenticate/register", loginPayload).then((response) => { 
             if (response.status != 200) {alert(response.status)}
 
          }).catch( (e) => alert(e) );

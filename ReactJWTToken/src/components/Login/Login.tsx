@@ -13,7 +13,7 @@ const Login = () => {
       event.preventDefault();
       const loginPayload = {Username: login, Password: pass};
       try{
-         axios.post("https://localhost:7282/api/Authenticate/login", loginPayload).then((response) => { 
+         axios.post("http://viktor2002-001-site1.htempurl.com/api/Authenticate/login", loginPayload).then((response) => { 
             console.log(response);
             localStorage.setItem("token", response.data.token);
          }).catch( (e) => alert(e) );
