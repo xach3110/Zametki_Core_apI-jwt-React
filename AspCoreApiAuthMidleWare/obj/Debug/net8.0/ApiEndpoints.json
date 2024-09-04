@@ -48,24 +48,80 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AspCoreApiAuthMidleWare.Controllers.WeatherForecastController",
+    "ContainingType": "AspCoreApiAuthMidleWare.Controllers.NoteUserController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "user/noteController",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": [],
+    "EndpointName": "GetAllNotes"
+  },
+  {
+    "ContainingType": "AspCoreApiAuthMidleWare.Controllers.NoteUserController",
+    "Method": "Post",
+    "RelativePath": "user/noteController",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[AspCoreApiAuthMidleWare.WeatherForecast, AspCoreApiAuthMidleWare, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "tittle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": [],
+    "EndpointName": "PostNote"
+  },
+  {
+    "ContainingType": "AspCoreApiAuthMidleWare.Controllers.NoteUserController",
+    "Method": "Put",
+    "RelativePath": "user/noteController",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Sid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutNote"
+  },
+  {
+    "ContainingType": "AspCoreApiAuthMidleWare.Controllers.NoteUserController",
+    "Method": "Delete",
+    "RelativePath": "user/noteController",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Sid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteNote"
   }
 ]

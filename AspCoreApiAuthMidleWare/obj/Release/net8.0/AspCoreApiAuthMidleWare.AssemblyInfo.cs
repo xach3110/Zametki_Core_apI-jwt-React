@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspCoreApiAuthMidleWare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cac420300ad776c2adf4f5563282ee650af4d14f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspCoreApiAuthMidleWare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspCoreApiAuthMidleWare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

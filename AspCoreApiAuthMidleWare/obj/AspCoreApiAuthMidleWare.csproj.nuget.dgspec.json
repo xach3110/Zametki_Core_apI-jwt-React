@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Виктор\\Desktop\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj": {}
+    "C:\\Users\\Виктор\\Documents\\GitHub\\Zametki_Core_apI-jwt-React\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Виктор\\Desktop\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj": {
+    "C:\\Users\\Виктор\\Documents\\GitHub\\Zametki_Core_apI-jwt-React\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Виктор\\Desktop\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj",
+        "projectUniqueName": "C:\\Users\\Виктор\\Documents\\GitHub\\Zametki_Core_apI-jwt-React\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj",
         "projectName": "AspCoreApiAuthMidleWare",
-        "projectPath": "C:\\Users\\Виктор\\Desktop\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj",
+        "projectPath": "C:\\Users\\Виктор\\Documents\\GitHub\\Zametki_Core_apI-jwt-React\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj",
         "packagesPath": "C:\\Users\\Виктор\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Виктор\\Desktop\\AspCoreApiAuthMidleWare\\obj\\",
+        "outputPath": "C:\\Users\\Виктор\\Documents\\GitHub\\Zametki_Core_apI-jwt-React\\AspCoreApiAuthMidleWare\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

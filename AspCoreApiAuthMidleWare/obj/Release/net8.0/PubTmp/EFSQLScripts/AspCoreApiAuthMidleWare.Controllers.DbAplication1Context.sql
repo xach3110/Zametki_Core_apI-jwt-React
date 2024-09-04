@@ -223,3 +223,34 @@ GO
 COMMIT;
 GO
 
+BEGIN TRANSACTION;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240902173258_newmigration'
+)
+BEGIN
+    CREATE TABLE [notes] (
+        [Id] uniqueidentifier NOT NULL,
+        [NoteTittle] nvarchar(max) NOT NULL,
+        [NoteDate] datetime2 NOT NULL,
+        [NoteText] nvarchar(max) NOT NULL,
+        CONSTRAINT [PK_notes] PRIMARY KEY ([Id])
+    );
+END;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240902173258_newmigration'
+)
+BEGIN
+    INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+    VALUES (N'20240902173258_newmigration', N'8.0.8');
+END;
+GO
+
+COMMIT;
+GO
+
