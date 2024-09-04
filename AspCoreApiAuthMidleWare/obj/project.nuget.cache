@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g9qvmd9m2aY=",
+  "dgSpecHash": "KNOQZ0pjFk8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Виктор\\Documents\\GitHub\\Zametki_Core_apI-jwt-React\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj",
+  "projectFilePath": "C:\\Users\\Виктор\\Documents\\Zametki_Core_apI-jwt-React\\AspCoreApiAuthMidleWare\\AspCoreApiAuthMidleWare.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Виктор\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Виктор\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

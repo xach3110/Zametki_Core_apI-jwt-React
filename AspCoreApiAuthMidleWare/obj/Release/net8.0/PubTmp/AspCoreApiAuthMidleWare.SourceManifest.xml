@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\Виктор\Documents\GitHub\Zametki_Core_apI-jwt-React\AspCoreApiAuthMidleWare\obj\Release\net8.0\PubTmp\Out\" />
-  <dbfullsql path="C:\Users\Виктор\Documents\GitHub\Zametki_Core_apI-jwt-React\AspCoreApiAuthMidleWare\obj\Release\net8.0\PubTmp\EFSQLScripts\AspCoreApiAuthMidleWare.Controllers.DbAplication1Context.sql" />
+  <IisApp path="C:\Users\Виктор\Documents\Zametki_Core_apI-jwt-React\AspCoreApiAuthMidleWare\obj\Release\net8.0\PubTmp\Out\" />
 </sitemanifest>
